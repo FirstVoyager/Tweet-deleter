@@ -21,18 +21,17 @@
 
 ## :star2: About the Project
 ### :camera: Screenshots
-<p float="center">
-  <img src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-0.webp" width="50%" />
-  <img src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-1.webp" width="50%" />
-</p>
-<p float="left">
-     <img src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-2.webp" width="50%" />
-  <img src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-3.webp" width="50%" />
-</p>
 
+<div style="display:flex;">
+  <img alt="App image" src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-0.webp" width="30%">
+  <img alt="App image" src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-1.webp" width="30%">
+  <img alt="App image" src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-2.webp" width="30%">
+  <img alt="App image" src="https://github.com/FirstVoyager/Tweet-deleter/raw/master/assetss/screen-3.webp" width="30%">
+</div>
 
 
 ### :art: Color Reference
+
 | Color | Hex |
 | --------------- | ---------------------------------------------------------------- |
 | Primary Color | ![#1976D2](https://via.placeholder.com/10/1976D2?text=+) #1976D2 |
@@ -42,7 +41,7 @@
 
 ## :grey_question: FAQ
 
-- is this repo clean code?
+- Does this repo use clean code?
 - No.
 - Is this repo written in Java?
 - Yes.
@@ -50,7 +49,7 @@
 
 ## :warning: License
 
-Distributed under the no License. See LICENSE.txt for more information.
+See LICENSE.txt for more information.
 
 ## :handshake: Contact
 
