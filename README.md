@@ -1,12 +1,11 @@
 <div align='center'>
-
-<img src=https://raw.githubusercontent.com/FirstVoyager/Tweet-deleter/master/app/src/main/res/drawable/icon_main.png alt="logo" width=200 height=200 />
-
-<h1>Tweet deleter</h1>
-<p>for android</p>
-
-<h4> <a href=https://github.com/FirstVoyager/Tweet-deleter/raw/master/app/release/app-release.apk>View Demo</a> <span> · </span> <a href="https://github.com/FirstVoyager/Tweet Deleter/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/FirstVoyager/Tweet Deleter/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/FirstVoyager/Tweet Deleter/issues"> Request Feature </a> </h4>
-
+  
+  <img src=https://raw.githubusercontent.com/FirstVoyager/Tweet-deleter/master/app/src/main/res/drawable/icon_main.png alt="logo" width=150 height=150 />
+  
+  <h1>Tweet deleter</h1>
+  <p>for android</p>
+  
+  <h4> <a href=https://github.com/FirstVoyager/Tweet-deleter/raw/master/app/release/app-release.apk>View Demo</a> <span> · </span> <a href="https://github.com/FirstVoyager/Tweet Deleter/blob/master/README.md"> Documentation </a> <span> · </span> <a         href="https://github.com/FirstVoyager/Tweet Deleter/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/FirstVoyager/Tweet Deleter/issues"> Request Feature </a> </h4>
 
 </div>
 
