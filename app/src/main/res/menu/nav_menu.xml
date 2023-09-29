@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:checked="true"
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_home_circle_24dp"
+            android:title="@string/text_home"/>
+
+        <item
+            android:checked="true"
+            android:id="@+id/nav_tweet"
+            android:icon="@drawable/ic_twitter_24dp"
+            android:title="@string/text_tweets"/>
+
+        <item
+            android:id="@+id/nav_retweets"
+            android:icon="@drawable/ic_repeat_black_24dp"
+            android:title="@string/text_retweets"/>
+
+        <item
+            android:id="@+id/nav_replies"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="@string/t_replies"/>
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/text_likes"/>
+
+        <item
+            android:id="@+id/nav_muter"
+            android:icon="@drawable/ic_volume_mute_black_24dp"
+            android:title="@string/text_mutes"/>
+
+        <item
+            android:id="@+id/nav_blocked"
+            android:icon="@drawable/ic_block_black_24dp"
+            android:title="@string/blocked"/>
+
+    </group>
+
+    <item
+        android:title="@string/text_communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_status_downloader"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                android:title="@string/status_saver"/>
+
+            <item
+                android:id="@+id/nav_unfollowers_twitter"
+                android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                android:title="@string/unfollowers_twitter"/>
+
+            <item
+                android:id="@+id/nav_twitter_voice"
+                android:icon="@drawable/ic_baseline_keyboard_voice_24"
+                android:title="@string/voice_tweet"/>
+
+            <item
+                android:id="@+id/nav_follow_us"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/follow_us"/>
+
+            <item
+                android:visible="false"
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/text_setting"/>
+
+        </menu>
+
+    </item>
+
+</menu>

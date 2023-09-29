@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingActivity">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:id="@+id/ad_view"
+        ads:adUnitId="ca-app-pub-5011997916820553/3683516680"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linearLayout_theme"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:padding="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_palette_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:singleLine="true"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_theme"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView_themeName"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default1"
+                style="@style/TextAppearance.AppCompat.Caption" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:layout_marginEnd="8dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_divider"
+        android:background="@color/color_divider"/>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="Proxy"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchCompat_proxy_activitySetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Off"
+            android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editText_host_activitySetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:singleLine="true"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:hint="Proxy Host"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editText_port_activitySetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:singleLine="true"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:hint="Proxy Port"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingStart="4dp"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:paddingEnd="4dp"
+                android:text="Custom api key"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchCompat_customApiKey_activitySetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Off"
+                android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:editable="false"
+                android:id="@+id/editText_apiKey_activitySetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:singleLine="true"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:hint="API Key"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:editable="false"
+                android:id="@+id/editText_secret_activitySetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:singleLine="true"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:hint="Secret"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redirect URL"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="https://limitless.dream"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:layout_width="25dp"
+        android:layout_height="8dp"
+        android:background="@drawable/view_top_bottom_sheet"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:id="@+id/button_addToWhiteList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/add_to_white_list"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_assistant_photo_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_copyLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/copy_link"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_insert_link_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_shareTweetVia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/share_tweet_via"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_share_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+    
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_showInTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/show_in_twitter"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_remove_red_eye_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_copyTweetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/copy_the_tweet_text"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_content_copy_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_unlike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/unlike"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_favorite_border_black_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/button_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="@string/delete"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_trash_can_outline_24dp"
+        app:iconGravity="start"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/black"
+        android:textColor="@color/color_black"/>
+
+</LinearLayout>

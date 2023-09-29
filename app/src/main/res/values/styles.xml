@@ -1,0 +1,140 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheet</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheet</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_primaryDark</item>
+        <item name="colorAccent">@color/red_accent</item>
+    </style>
+
+    <style name="AppTheme.Pink" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primaryDark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryDark">@color/purple_primaryDark</item>
+        <item name="colorAccent">@color/purple_accent</item>
+    </style>
+
+    <style name="AppTheme.DeepPurple" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/deepPurple_primary</item>
+        <item name="colorPrimaryDark">@color/deepPurple_primaryDark</item>
+        <item name="colorAccent">@color/deepPurple_accent</item>
+    </style>
+
+    <style name="AppTheme.Indigo" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorPrimaryDark">@color/indigo_primaryDark</item>
+        <item name="colorAccent">@color/indigo_accent</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primaryDark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+    </style>
+
+    <style name="AppTheme.LightBlue" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/lightBlue_primary</item>
+        <item name="colorPrimaryDark">@color/lightBlue_primaryDark</item>
+        <item name="colorAccent">@color/lightBlue_accent</item>
+    </style>
+
+    <style name="AppTheme.Cyan" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/cyan_primary</item>
+        <item name="colorPrimaryDark">@color/cyan_primaryDark</item>
+        <item name="colorAccent">@color/cyan_accent</item>
+    </style>
+
+    <style name="AppTheme.Teal" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryDark">@color/teal_primaryDark</item>
+        <item name="colorAccent">@color/teal_accent</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_primaryDark</item>
+        <item name="colorAccent">@color/green_accent</item>
+    </style>
+
+    <style name="AppTheme.LightGreen" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/lightGreen_primary</item>
+        <item name="colorPrimaryDark">@color/lightGreen_primaryDark</item>
+        <item name="colorAccent">@color/lightGreen_accent</item>
+    </style>
+
+    <style name="AppTheme.Lime" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/lime_primary</item>
+        <item name="colorPrimaryDark">@color/lime_primaryDark</item>
+        <item name="colorAccent">@color/lime_accent</item>
+    </style>
+
+    <style name="AppTheme.Amber" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/amber_primary</item>
+        <item name="colorPrimaryDark">@color/amber_primaryDark</item>
+        <item name="colorAccent">@color/amber_accent</item>
+    </style>
+
+    <style name="AppTheme.Orange" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primaryDark</item>
+        <item name="colorAccent">@color/orange_accent</item>
+    </style>
+
+    <style name="AppTheme.DeepOrange" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/deepOrange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primaryDark</item>
+        <item name="colorAccent">@color/deepOrange_accent</item>
+    </style>
+
+    <style name="AppTheme.Brown" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/brown_primaryDark</item>
+        <item name="colorAccent">@color/brown_accent</item>
+    </style>
+
+    <style name="AppTheme.Gray" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/gray_primary</item>
+        <item name="colorPrimaryDark">@color/gray_primaryDark</item>
+        <item name="colorAccent">@color/gray_accent</item>
+    </style>
+
+    <style name="AppTheme.BlueGray" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/blueGray_primary</item>
+        <item name="colorPrimaryDark">@color/blueGray_primaryDark</item>
+        <item name="colorAccent">@color/blueGray_accent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppBottomSheetModal</item>
+    </style>
+
+    <style name="AppBottomSheetModal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_bottom_sheet</item>
+    </style>
+
+</resources>

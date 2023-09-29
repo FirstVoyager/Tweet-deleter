@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:elevation="4dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp"
+    android:background="@drawable/background_item_recycler"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:contentDescription="@string/avatar"
+            android:layout_marginStart="8dp"
+            android:id="@+id/imageView_avatar_recyclerTweet"
+            android:layout_width="@dimen/height_avatar_recycler"
+            android:layout_height="@dimen/height_avatar_recycler"
+            android:src="@drawable/ic_user_512dp"/>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView_name_recyclerTweet"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="Name"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView_screenName_recyclerTweet"
+                android:layout_width="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                tools:text="Screen name"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:contentDescription="@string/more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:id="@+id/imageButton_more"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="8dp"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_text_recyclerTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Simple text for \nthis item in this layout"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_media"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_tweets_height"
+            app:cardCornerRadius="@dimen/image_tweet_redius"
+            android:layout_margin="@dimen/image_tweet_margin"
+            app:cardElevation="@dimen/image_tweet_elevatkion">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:contentDescription="@string/main"
+                    android:scaleType="centerCrop"
+                    tools:src="@tools:sample/backgrounds/scenic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView_main" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView_video"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:contentDescription="@string/play"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_play_circle_filled_black_24dp" />
+
+                </androidx.cardview.widget.CardView>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@string/favorite"
+                android:layout_width="@dimen/height_min_item_tweet"
+                android:layout_height="@dimen/height_min_item_tweet"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:padding="2dp"
+                style="@style/TextAppearance.AppCompat.Caption"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_favorite_recyclerTweet"
+                tools:text="120"/>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:contentDescription="@string/reply"
+                android:layout_width="@dimen/height_min_item_tweet"
+                android:layout_height="@dimen/height_min_item_tweet"
+                android:src="@drawable/ic_comment_black_24dp"
+                android:padding="2dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView_mentions_recyclerTweet"
+                android:layout_height="wrap_content"
+                android:text="120"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:contentDescription="@string/retweet"
+                android:layout_width="@dimen/height_min_item_tweet"
+                android:layout_height="@dimen/height_min_item_tweet"
+                android:src="@drawable/ic_repeat_black_24dp"
+                android:padding="2dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_reTweet_recyclerTweet"
+                tools:text="120"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:textSize="12sp"
+                android:id="@+id/button_delete"
+                android:text="@string/delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

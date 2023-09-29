@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <View
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:layout_width="25dp"
+            android:layout_height="8dp"
+            android:background="@drawable/view_top_bottom_sheet"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_account"
+            tools:itemCount="4"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:text="@string/add_another_account"
+                android:gravity="center"
+                android:textAllCaps="false"
+                app:icon="@drawable/ic_person_add_black_24dp"
+                app:iconPadding="16dp"
+                android:textColor="@android:color/black"
+                app:iconTint="@android:color/black"
+                app:iconGravity="textStart"/>
+
+            <ProgressBar
+                android:visibility="invisible"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/height_progress"
+                android:layout_height="@dimen/height_progress"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_divider"
+            android:background="@color/color_divider"/>
+
+        <LinearLayout
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/app_name" />
+
+            <View
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="@drawable/circle_"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/follow_us"
+                android:textColor="@android:color/holo_red_light"
+                android:id="@+id/textView_getRealFollowers"/>
+
+        </LinearLayout>
+
+</LinearLayout>

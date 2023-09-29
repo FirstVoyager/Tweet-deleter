@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    android:background="?attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:layout_height="72dp">
+
+    <ImageView
+        android:contentDescription="@string/avatar"
+        tools:src="@drawable/icon_main"
+        android:id="@+id/imageView_avatar"
+        android:layout_width="@dimen/height_avatar_recycler"
+        android:layout_height="@dimen/height_avatar_recycler"/>
+
+    <LinearLayout
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_name"
+            android:textSize="16sp"
+            tools:text="User name"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_screenName"
+            android:textSize="14sp"
+            tools:text="User name"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_main"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/circle_"/>
+
+</LinearLayout>

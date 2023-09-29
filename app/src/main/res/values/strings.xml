@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Tweet deleter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="text_login">Log in</string>
+    <string name="share_app_text">Delete your tweet, retweet, mention, like with this app</string>
+    <string name="text_setting">Setting</string>
+    <string name="app_email">limitlessDreamDev@gmail.com</string>
+    <string name="t_replies">Replies</string>
+    <string name="text_likes">Likes</string>
+    <string name="text_retweets">ReTweets</string>
+    <string name="text_tweets">Tweets</string>
+    <string name="text_about">About</string>
+    <string name="share">Share</string>
+    <string name="url_app">https://play.google.com/store/apps/details?id=limitless.tweetdeleter</string>
+    <string name="url_app_material">https://play.google.com/store/apps/details?id=limitless.materialcolor</string>
+    <string name="package_app_launcher">limitless.android.appmanager</string>
+    <string name="package_twitter_tools">limitless.android.tools.twttr</string>
+    <string name="package_unfollow_tita">limitless.android.unfollowtita</string>
+
+    <string name="ads_id_app">ca-app-pub-5209877172563918~9748990875</string>
+    <string name="ad_id_banner">ca-app-pub-5209877172563918/5809745869</string>
+    <string name="ad_id_interstitial">ca-app-pub-5209877172563918/8244337518</string>
+    <string name="ad_id_reward">ca-app-pub-5209877172563918/5509884032</string>
+    <string name="ad_id_open">ca-app-pub-5209877172563918/3024665731</string>
+
+    <string name="text_mutes">Mutes</string>
+    <string name="text_communicate">Communicate</string>
+    <string name="text_twttr_tools">Twitter tools</string>
+    <string name="text_unfollow_tita">Unfollow TiTa</string>
+    <string name="text_home">Home</string>
+    <string name="error_message">To see the impact of this  app.\nPlease clear cache your Twitter app after deleting your tweets.\nTo see if your tweets have actually been deleted, you can refer to your profile and click on the deleted Tweet, which will receive an error message from the Twitter app, meaning your Tweet has been deleted.\nEnjoy it (:</string>
+    <string name="text_upgrade">Upgrade</string>
+    <string name="t_app_message">App message</string>
+    <string name="add_to_white_list">Add to white list</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share_tweet_via">Share Tweet via…</string>
+    <string name="copy_the_tweet_text">Copy the Tweet text</string>
+    <string name="show_in_twitter">Show in Twitter</string>
+    <string name="delete">Delete</string>
+    <string name="unlike">Unlike</string>
+    <string name="text_infinite_wallaper">Infinite wallpaper</string>
+    <string name="package_infinite_wallpaper">limitless.infinitewallpaper</string>
+    <string name="text_app_launcher">App launcher</string>
+    <string name="text_not_found_try_again">Not found try again</string>
+    <string name="follow_us">Follow us</string>
+
+    <string name="t_your_coins">Your Coins</string>
+    <string name="t_get_reward">Get Reward</string>
+    <string name="package_media_downloader">limitless.android.status.saver</string>
+    <string name="amount_tweet_delete">You can delete &amp; unlike %d tweets</string>
+    <string name="t_loading_ads">Loading ads</string>
+    <string name="t_try_again">Try again</string>
+    <string name="t_filter">Filter</string>
+    <string name="t_text_filter">Text Filter</string>
+    <string name="t_user_filter">User Filter</string>
+    <string name="cancel">Cancel</string>
+    <string name="t_empty">Empty</string>
+    <string name="t_close">Close</string>
+    <string name="hint_text_filter">If these words are in the Tweet, they will not be deleted</string>
+    <string name="hint_user_filter">Replies(to user) and Retweets from these users will not be deleted</string>
+    <string name="hint_time_filter">Time between delete (to violate Twitter rules) : max : 20s, min : 0 s</string>
+    <string name="msg_delete">Do you want to %s %d %s ?</string>
+    <string name="t_tweets">Tweets</string>
+    <string name="t_users">Users</string>
+    <string name="rate">Rate</string>
+    <string name="t_support_development">Support development</string>
+    <string name="msg_support">This app is available for free. Just to see a movie ad to support the developer.\n
+                    It only took you a few seconds.\nthank you.</string>
+    <string name="show">Show</string>
+    <string name="default1">Default</string>
+    <string name="select_theme">Select theme</string>
+    <string name="other_apps">Other apps</string>
+    <string name="download">Download</string>
+    <string name="no_media">No Media</string>
+    <string name="photo_view">Photo View</string>
+    <string name="copied">Copied</string>
+    <string name="video_downloader">Video downlaoder</string>
+    <string name="google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="login_failed">Login failed</string>
+    <string name="blocked">Blocked</string>
+    <string name="thank_you">Thank you</string>
+    <string name="unblock">Unblock</string>
+    <string name="install">Install</string>
+    <string name="twitter_tools">Twitter tools</string>
+    <string name="material_color">Material color</string>
+    <string name="app_launcher_and_extractor">App Launcher and Extractor</string>
+    <string name="feedback">Feedback</string>
+    <string name="app_about">Delete your tweets, retweets, mentions, likes</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="email">Email</string>
+    <string name="unmute">Unmute</string>
+    <string name="header">Header</string>
+    <string name="avatar">Avatar</string>
+    <string name="add_another_account">Add another account</string>
+    <string name="get_real_followers">Get Real followers</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+    <string name="check_your_connection">Check your connection</string>
+    <string name="account_exist">Account exists</string>
+    <string name="cant_load_user">Can\'t load user</string>
+    <string name="multi_account">Multi account</string>
+    <string name="msg_support_multi_account">You\'ll need to watch a ads video to access multiple account features.</string>
+    <string name="logout">Logout</string>
+    <string name="ads_failed_to_load">Ads failed to load</string>
+    <string name="follow_failed">Follow failed</string>
+    <string name="hashtags">Hashtags</string>
+    <string name="apps">Apps</string>
+    <string name="top_apps">Top apps</string>
+    <string name="package_hashtags">limitless.android.hashtags</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="add">Add</string>
+    <string name="more">More</string>
+    <string name="main">Main</string>
+    <string name="play">Play</string>
+    <string name="favorite">Favorite</string>
+    <string name="reply">Reply</string>
+    <string name="retweet">Retweet</string>
+    <string name="licens_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm8G02SDZWmsMxeEGpeKCwtWl14ZC9yb+WudEX8waESN5Ujakw4nziWsa0cCsMCrBaoARXHEaapMgPmXMO/F7rOULOhDtYgHK5QnBVO7ruTpvYkm6wl/DOMbEZvKyGfzSyoXNJzfKkFXUET2X8dyMVZaeeep8rL//n6I+ajXynWsKiPDP9peSZkRXvN6BBWAjXNmAWFAbPATbU8QRaEsavhc7Hmq9Xt/4Wa7EGczQ150S4bjHKE0zSMpnYzTBf8LMoS1cbDBq1ok3QpMvW5l24XoxwxmZz3MnScIqUnI/gKqgznQepE3FDkIcK3yUaELbqThkIE+B9Fe7vHPG2INRkwIDAQAB</string>
+    <string name="upgrade_to_premium">Upgrade to premium</string>
+    <string name="gold_version">Gold version</string>
+    <string name="features_gold_version_html">Remove ads\n Multi account\n For a mouth</string>
+    <string name="buy">Buy</string>
+    <string name="voice_tweet">Voice tweet</string>
+    <string name="twitter_voice_url">https://play.google.com/store/apps/details?id=limitless.android.twittervoice</string>
+    <string name="tweet_your_voice">Tweet your voice</string>
+    <string name="restore">Restore</string>
+    <string name="re_open_app">Open the application from the beginning</string>
+    <string name="tweet_deleter_pro">Tweet deleter Pro</string>
+    <string name="pro_msg">Unlocks extra featres : \n1. Multi account \n2.Remove add ads \n3.Access to remove likes section</string>
+    <string name="please_active_pro_version">Please active pro version</string>
+    <string name="no_tweet">No tweet</string>
+    <string name="user_is_empty">User is empty</string>
+    <string name="icon">Icon</string>
+    <string name="access_to_multi_account">Access to multi account</string>
+    <string name="remove_all_ads">Remove all ads</string>
+    <string name="access_to_remove_likes_section">Access to remove likes section</string>
+    <string name="time_monthly">Time : monthly</string>
+    <string name="please_wait_">Please wait…</string>
+    <string name="error">Error</string>
+    <string name="status_saver">Status saver</string>
+    <string name="unfollowers_twitter">Unfollowers twitter</string>
+    <string name="app_url_status_saver">https://play.google.com/store/apps/details?id=limitless.android.status.saver</string>
+    <string name="ufollow_twitter_url">https://play.google.com/store/apps/details?id=limitless.android.unfollowtita</string>
+    <string name="successfully_restored">Successfully restored</string>
+</resources>

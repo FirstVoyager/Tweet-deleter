@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="height_min_item_tweet">16dp</dimen>
+    <dimen name="height_divider">0.2dp</dimen>
+    <dimen name="height_avatar_recycler">35dp</dimen>
+    <dimen name="margin_fab">16dp</dimen>
+    <dimen name="radius_card_medium">8dp</dimen>
+    <dimen name="elevation_card_progress">4dp</dimen>
+    <dimen name="height_progress">35dp</dimen>
+    <dimen name="height_mini_icon">25dp</dimen>
+    <dimen name="height_item_tweet_more">45dp</dimen>
+    <dimen name="padding_item_tweet_more">8dp</dimen>
+    <dimen name="size_text_bottom_sheet_more">18sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_tweets_height">110dp</dimen>
+    <dimen name="image_tweet_redius">8dp</dimen>
+    <dimen name="image_tweet_margin">4dp</dimen>
+    <dimen name="image_tweet_elevatkion">0dp</dimen>
+    <dimen name="upgrade_banner_height">260dp</dimen>
+    <dimen name="margin_top_bottom_sheet">8dp</dimen>
+    <dimen name="bottom_sheet_top_width">40dp</dimen>
+    <dimen name="bottom_sheet_top_height">5dp</dimen>
+    <dimen name="icon_apps_height">40dp</dimen>
+    <dimen name="bototm_sheet_radius">16dp</dimen>
+</resources>

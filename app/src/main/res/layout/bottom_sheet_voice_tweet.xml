@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_marginTop="@dimen/margin_top_bottom_sheet"
+        android:layout_width="@dimen/bottom_sheet_top_width"
+        android:layout_height="@dimen/bottom_sheet_top_height"
+        android:background="@drawable/view_top_bottom_sheet"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_top_bottom_sheet"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voice_tweet"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_voice"
+        android:paddingTop="@dimen/margin_top_bottom_sheet"
+        android:paddingBottom="@dimen/margin_top_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:contentDescription="@string/voice_tweet"
+            android:layout_width="@dimen/icon_apps_height"
+            android:layout_height="@dimen/icon_apps_height"
+            android:src="@drawable/ic_voice_tweet_"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_marginStart="16dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/tweet_your_voice"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:layout_marginEnd="@dimen/margin_top_bottom_sheet"
+            android:id="@+id/button_voice"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:text="@string/install"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_divider"
+        android:background="@color/color_divider"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_statusSaver"
+        android:paddingTop="@dimen/margin_top_bottom_sheet"
+        android:paddingBottom="@dimen/margin_top_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:contentDescription="@string/voice_tweet"
+            android:layout_width="@dimen/icon_apps_height"
+            android:layout_height="@dimen/icon_apps_height"
+            android:src="@drawable/ic_satus_saver_512dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_marginStart="16dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/status_saver"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:layout_marginEnd="@dimen/margin_top_bottom_sheet"
+            android:id="@+id/button_statusSaver"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:text="@string/install"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_divider"
+        android:background="@color/color_divider"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_unfollowersTwitter"
+        android:paddingTop="@dimen/margin_top_bottom_sheet"
+        android:paddingBottom="@dimen/margin_top_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:contentDescription="@string/voice_tweet"
+            android:layout_width="@dimen/icon_apps_height"
+            android:layout_height="@dimen/icon_apps_height"
+            android:src="@drawable/ic_unfollow_tiwtter_512dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_marginStart="16dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/unfollowers_twitter"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginStart="@dimen/margin_top_bottom_sheet"
+            android:layout_marginEnd="@dimen/margin_top_bottom_sheet"
+            android:id="@+id/button_unfollowTwitter"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:text="@string/install"/>
+
+    </LinearLayout>
+
+</LinearLayout>

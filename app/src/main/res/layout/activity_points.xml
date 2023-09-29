@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CoinsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <include
+            layout="@layout/toolbar"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginTop="8dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/reward_free"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Free Reward"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:padding="4dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_points"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            app:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_points"
+            android:gravity="center"
+            android:lines="2"
+            android:minWidth="80dp"
+            android:padding="12dp"
+            tools:text="100" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/amount_tweet_delete"
+            android:id="@+id/textView_amount"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_progress"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:layout_margin="2dp"
+                android:layout_width="@dimen/height_progress"
+                android:layout_height="@dimen/height_progress"
+                android:id="@+id/progressBar"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_loading_ads"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:backgroundTint="@android:color/holo_red_light"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/margin_fab"
+        android:text="@string/t_get_reward"
+        android:id="@+id/efab_getReward"
+        android:textColor="@android:color/white"/>
+
+</FrameLayout>

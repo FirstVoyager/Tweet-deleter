@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cardView_account"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:background="@drawable/background_item_recycler"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:contentDescription="@string/avatar"
+        android:id="@+id/imageView_avatar"
+        android:layout_width="@dimen/height_avatar_recycler"
+        android:layout_height="@dimen/height_avatar_recycler"
+        android:src="@drawable/ic_user_512dp"/>
+
+    <LinearLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:textColor="@android:color/black"
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="User name"
+            android:textSize="16sp"
+            style="@style/TextAppearance.AppCompat.Title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:id="@+id/textView_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Caption"
+            tools:text="this is a sample bio"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/add"
+        android:layout_marginEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_add_black_24dp"/>
+
+</LinearLayout>
